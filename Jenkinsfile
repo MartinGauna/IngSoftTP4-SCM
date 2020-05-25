@@ -4,7 +4,6 @@ pipeline {
     stage('Build') {
       steps {
         withGradle() {
-          sh 'gradle build'
           echo 'Gradle Build'
         }
 
