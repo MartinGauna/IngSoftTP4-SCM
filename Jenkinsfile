@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'sh \'./gradle build\''
+        sh 'sh "ls -a"'
+        sh 'sh "./gradle build"'
       }
     }
 
