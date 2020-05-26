@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'ls -a'
-        sh './gradlew build'
+        sh './gradlew build --scan -s'
       }
     }
 
